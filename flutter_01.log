@@ -1,0 +1,73 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+ExistingDartDevelopmentServiceException: DartDevelopmentServiceException: JSON-RPC error 100: Existing VM service clients prevent DDS from taking control.
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.27.1, on Microsoft Windows [Version 10.0.22631.4890], locale en-GB)
+    [32m•[39m Flutter version 3.27.1 on channel stable at E:\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 17025dd882 (9 weeks ago), 2024-12-17 03:23:09 +0900
+    [32m•[39m Engine revision cb4b5fff73
+    [32m•[39m Dart version 3.6.0
+    [32m•[39m DevTools version 2.40.2
+
+[32m[✓][39m Windows Version (Installed version of Windows is version 10 or higher)
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    [32m•[39m Android SDK at C:\Users\CS\AppData\Local\Android\sdk
+    [32m•[39m Platform android-34, build-tools 34.0.0
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.3+-12282718-b509.11)
+    [33m![39m Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop Windows apps (Visual Studio Community 2022 17.11.5)
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.11.35327.3
+    [32m•[39m Windows 10 SDK version 10.0.22621.0
+
+[32m[✓][39m Android Studio (version 2024.2)
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.3+-12282718-b509.11)
+
+[32m[✓][39m VS Code (version 1.97.1)
+    [32m•[39m VS Code at C:\Users\CS\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.104.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.4890]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 132.0.6834.160
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 133.0.3065.59
+
+[33m[!][39m Network resources
+    [31m✗[39m A network error occurred while checking "https://pub.dev/": The semaphore timeout period has expired.
+
+    [31m✗[39m A network error occurred while checking "https://storage.googleapis.com/": Failed host lookup: 'storage.googleapis.com'
+    [31m✗[39m A network error occurred while checking "https://maven.google.com/": The semaphore timeout period has expired.
+
+    [31m✗[39m A network error occurred while checking "https://cocoapods.org/": The semaphore timeout period has expired.
+
+    [31m✗[39m A cryptographic error occurred while checking "https://github.com/": Connection terminated during handshake
+      You may be experiencing a man-in-the-middle attack, your network may be compromised, or you may have malware installed on your
+      computer.
+
+[33m![39m Doctor found issues in 2 categories.
+```
